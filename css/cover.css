@@ -486,9 +486,12 @@ body {
 }
 
 
-.logodim1 { height: --var(--height-logo);
-		padding:var(--padding-banner) 0px var(--padding-banner) 0px;
-
+.logodim1 img { position: fixed;
+    display: block;
+    z-index: 99999999;
+    padding: 10px 0px 0px 0px;
+    width: 300px;
+    margin-left: 30px;
  }
 
 h1.textbanner{
